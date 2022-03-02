@@ -133,3 +133,9 @@
     margin-top: 1.5em;
     padding: .6em 1.2em;
 }
+
+@media (min-width:768px) {
+    #mini-banners{
+        margin-top: -3em;
+    }
+}
