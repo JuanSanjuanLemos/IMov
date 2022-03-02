@@ -165,7 +165,7 @@
     margin-top: 2em;
 }
 
-.img-fluid{
+#featured-images .img-fluid{
     height: 100%;
 }
 #featured-images .col-md-4{
@@ -201,5 +201,37 @@
     }
     #featured-images .banner-content{
         opacity: 0;
+    }
+}
+
+
+#info-content{
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+#info-numbers{
+    margin: 1.5em 0;
+}
+
+#info-banner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+#info-numbers h3{
+    font-size: 3em;
+}
+
+@media (max-width:404px) {
+    #info-content h2:before{
+        bottom: 3em;
+    }
+}
+
+@media (min-width:768px) {
+    #info-content{
+        padding: 3.5em;
     }
 }
